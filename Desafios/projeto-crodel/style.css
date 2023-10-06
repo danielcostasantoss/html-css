@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+:root{
+    --cor0:#ffffff;
+    --cor1:#1d7cff;
+    --cor3:#f6f7b9;
+    --cor4:#eef073;
+    --cor5:#e6e92d;
+}
+
+body{
+    background-color:var(--cor1);
+    color: black;
+}
+#logo{
+    position: relative;
+    margin: center;
+}
+#importante{
+    background-color: var(--cor0);
+    width: auto;
+    padding: 30px;
+}
