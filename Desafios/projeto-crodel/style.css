@@ -7,7 +7,21 @@
     margin: -10px;
     color: white;
     padding: 30px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.253);
 }
+h1{
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 p{
+    min-width: 300px;
     width: auto;
+}
+
+section{
+    position: relative;
+    width: 650px;
+    font-size: 50px;
+    margin: 40px;
 }
