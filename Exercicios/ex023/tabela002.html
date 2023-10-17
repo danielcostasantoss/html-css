@@ -10,6 +10,7 @@
     <h1>Uso de tabelas grandes</h1>
     <!-- Anatomia para tabelas grandes
     TABLE
+        CAPTION
         THEAD
             TR, TD, TH
         TBODY
@@ -18,11 +19,12 @@
             TR, TD, TH
     -->
     <table>
+        <caption> População brasileira por Estado.</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População (2022)</th>
-                <th>% da população total</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 120px;">População (2022)</th>
+                <th scope="col" style="width: 80px;">% da população total</th>
             </tr>
         </thead>
         <tbody>
@@ -164,8 +166,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
-                <td class="numero">203.062.512</td>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero"><strong>203.062.512</strong></td>
             </tr>
         </tfoot>
     </table>

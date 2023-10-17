@@ -6,24 +6,47 @@ body{
 }
 
 table {
-    background-color: rgba(54, 54, 54, 0.658);
-    width: 500px;
+    background-color: rgba(255, 255, 255, 0.658);
+    width: 500px;border: 1px solid black;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.8em;
+    background-color: rgba(128, 128, 128, 0.562);
+    padding: 15px;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.411);
+    border-radius: 5px 5px 0px 0px;
 }
 
 thead{
-    background-color: aquamarine;
+    background-color: rgb(98, 100, 211);
+    border: 1px solid rgba(0, 0, 0, 0.589);
 }
 
-table, th{
-    border: 1px solid black;
-    text-align: center;
-    padding: 3px;
+thead > tr > th{
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+tbody > tr:nth-child(2n){
+    background-color: rgba(119, 136, 153, 0.514);
+}
+
+th{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgba(0, 0, 0, 0.966);
+    color: white;
 }
 
 td{
-    background-color: aliceblue;
     padding: 2px;
-    border: 1px solid rgba(0, 0, 0, 0.671);
+    border: 1px solid rgba(0, 0, 0, 0.596);
     text-align: left;
 }
 
@@ -36,11 +59,8 @@ td{
 }
 
 td:hover{
-    background-color: rgba(0, 0, 255, 0.384);
+    background-color: rgb(83, 83, 83);
     text-decoration: underline;
     color: white;
-}
-
-tfoot{
-    background-color: aquamarine;
+    font-weight: bold;
 }
